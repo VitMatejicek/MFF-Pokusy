@@ -11,7 +11,6 @@ def VytiskniLSS(p):
     print(".")
 
 def NactiLSS():
-    """cte cisla z radku, dokud nenacte prazdny radek"""
     prvni = None
     posledni = None
     r = input()
@@ -46,4 +45,5 @@ def IntersectionDestruct(a, b):
         current.dalsi = None
     return result.dalsi
 
-VytiskniLSS(IntersectionDestruct(NactiLSS(), NactiLSS()))
+VytiskniLSS(IntersectionDestruct(NactiLSS(), NactiLSS())) #zmeneny-radek
+#pridany-radek
